@@ -26,5 +26,14 @@ namespace KTGIT
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(txtUserName.Text == "admin" && txtPassword.Text == "admin")
+            {
+                Form2 frm = new Form2();
+                frm.ShowDialog();   
+            } 
+        }
     }
 }
